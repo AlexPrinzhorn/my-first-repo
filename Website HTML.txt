@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmins="http://www.w3.org/1999/xhtml" xml:lang="de">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>Ein Plädoyer für das Layout mit CSS - Startseite</title>
+<link rel="stylesheet" type="text/css" href="mylayout.css"/>
+</head>
+<body id="Startseite">
+<!-- im Browser sichtbarer Teil -->
+</body>
+</html>
+
+<div id="wrapper">
+ <div id="kopfzeile"> 
+<p>Stilvolles Design mit CSS</p>
+<img src="Foto.jpg" alt="Foto" width="180" height="320" title="Der Macher der Website (und Bayern-Fan)"/>
+</div>
+ <div id="navigation"> 
+<ul>
+ <li id="navi01"><a href="index.html">Startseite</a></li>
+ <li id="navi02"><a href="informationen.html">Informationen</a></li>
+ <li id="navi01"><a href="impressum.html">Impressum</a></li>
+</ul>
+</div>
+ <div id="textbereich"> 
+ <h1>Ein Plädoyer für das Layout mit CSS</h1>
+ <p>Mit HTML werden Inhalte strukturiert. <br/> Mit CSS wird der strukturierte Inhalt formatiert.</p>
+ <h2>Alle Argumente sprechen für die Nutzung von CSS</h2>
+ <p>Nachfolgend finden sie eine Auflistung der wichtigsten Gründe für die Nutzung von CSS.</p>
+ <ul>
+  <li>Der Einsatz von CSS spart Geld</li>
+   <ul>
+    <li>Der zeitliche Aufwand bei der Änderung sinkt drastisch</li>
+    <li>Die Internetseiten werden deutlich kleiner und sparen dadurch Traffic</li>
+   </ul>
+  </li>
+  <li>Bessere Position der Seiten in Suchmaschinen</li>
+  <li>Vergrößerte Reichweite, da barrierefreie Internetseiten von einer größeren Anzahl von Benutzern gelesen werden können</li>
+  <li>Bessere Kontrolle der Platzierung von Elementen auf der Seite</li>
+ </ul>
+<p>Für weitere Informationen zum Thema CSS empfehle ich Ihnen das Buch mit dem Titel <a href="http://www.css-einfach.de" title="www.css-einfach.de - die offizielle Website zum Buch">CSS einfach erklärt - Eine Einführung ins Webdesign anhand konkreter Beispiele</a> von Jens Kilgenstein.</p>
+ </div>
+ <div id="fusszeile"> </div>
+ <p>@ by Alex Prinzhorn</p>
+</div>
